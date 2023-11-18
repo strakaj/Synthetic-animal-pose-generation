@@ -22,25 +22,25 @@
     <img src="resources/package_manager.png" alt="" width="300"/>
 
     - Book Of The Dead is a whole project and during importing two warning windows will show, click "Import" and then "Instal/Upgrade". It is not necessary to import all assets. After selecting assets you can click "next" and then "import". 
-
+    
     <p float="left">
-        <img src="resources/botd_import-3.png" width="200" />
-        <img src="resources/botd_import-4.png" width="200" />
-        <img src="resources/botd_import-1.png" width="200" />
-        <img src="resources/botd_import-2.png" width="200" />
+        <img src="resources/botd_import-3.png" width="150" />
+        <img src="resources/botd_import-4.png" width="150" />
+        <img src="resources/botd_import-1.png" width="150" />
+        <img src="resources/botd_import-2.png" width="150" />
     </p>
 
 
 4. Download this repository and copy all files in the Assets folder in the project Assets folder. The project already contains folder `_TerrainAutoUpgrade` it is safe to overwrite this folder with files in the repository folder.
 
-    <img src="resources/projects_assets_folder.png" alt="" width="300"/>
+    <img src="resources/projects_assets_folder.png" alt="" width="250"/>
 
 
 5. Go to Window > Rendering > HDRP Wizard and click "Convert All Built-in Materials to HDRP"
 
 6. In the Game window add a new screen resolution
 
-    <img src="resources/resolution.png" alt="" width="150"/>
+    <img src="resources/resolution.png" alt="" width="200"/>
 
 7. Go to File > Build Setting and add scenes
     - scenes can be added by dropping scene objects into the window (order matters)
@@ -73,7 +73,6 @@ We used a paid model, therefore we can not make it available. In each scene is p
 3. If a new animation is created it is necessary to add capture and completed events. The first signalizes when the animation screenshot should be taken and the second resumes walking animation.
 
     <img src="resources/anim_event1.png" alt="" width="400"/>
-
     <img src="resources/anim_event2.png" alt="" width="400"/>
 
 4. Animations are started by triggers, if a new animation is added it is necessary to add a new trigger. The name of the trigger also needs to be added to the Animation_names array in the Agent component.
